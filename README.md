@@ -3,7 +3,7 @@
   <a href="https://avenda-o-two.vercel.app" target="_blank">Avendaño</a>
 </h2>
 <div align="center">
-  <img alt="Demo" src="./Images/readme-img.png" />
+  <img alt="Demo" src="./public/image.png" />
 </div>
 
 <br/>
