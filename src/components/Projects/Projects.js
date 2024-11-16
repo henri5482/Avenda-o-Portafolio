@@ -45,9 +45,9 @@ function Projects() {
               tailwinds
               imgPath={avendaño} 
               isBlog={false}
-              title="ETDA" 
+              title="Agencia digital luromy" 
               ghLink="https://github.com/loth381"
-              demoLink="https://etda.vercel.app/"
+              demoLink="https://agencialuromy.vercel.app/"
             />
           </Col>
         <Col  md={4} className="project-card">

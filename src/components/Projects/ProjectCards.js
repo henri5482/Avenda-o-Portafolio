@@ -2,10 +2,7 @@ import React from "react";
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
 import { AiOutlineHtml5 } from "react-icons/ai";
-import { DiPostgresql } from "react-icons/di";
-import { BsGithub } from "react-icons/bs";
-import { CgWebsite } from "react-icons/cg";
-import { DiMongodb } from "react-icons/di";
+import { DiMongodb, DiPostgresql } from "react-icons/di";
 import { FaCss3Alt, FaJava, FaReact } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io";
 import { SiAstro, SiNextdotjs, SiStrapi, SiSupabase, SiTailwindcss, SiTypescript, SiVercel } from "react-icons/si";
@@ -179,23 +176,44 @@ function ProjectCards(props) {
         <Card.Text style={{ textAlign: "justify" }}>
           {props.description}
         </Card.Text>
-        <Button variant="primary" href={props.ghLink} target="_blank">
-          <BsGithub /> &nbsp;
-          {props.isBlog ? "Blog" : "GitHub"}
-        </Button>
+        
         {"\n"}
         {"\n"}
 
         {!props.isBlog && props.demoLink && (
           <Button
-            variant="primary"
-            href={props.demoLink}
-            target="_blank"
-            style={{ marginLeft: "10px" }}
-          >
-            <CgWebsite /> &nbsp;
-            {"Link"}
-          </Button>
+          variant="primary"
+          href={props.demoLink}
+          target="_blank"
+          style={{
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center',
+            gap: '8px',
+            padding: '12px 24px',
+            fontSize: '18px',
+            fontWeight: '600',
+            backgroundColor: '#007bff',
+            color: 'white',
+            border: 'none',
+            borderRadius: '8px',
+            cursor: 'pointer',
+            transition: 'all 0.2s ease',
+            textDecoration: 'none',
+            boxShadow: '0 2px 4px rgba(0,0,0,0.1)',
+          }}
+          onMouseOver={(e) => {
+            e.currentTarget.style.transform = 'scale(1.05)';
+            e.currentTarget.style.boxShadow = '0 4px 8px rgba(0,0,0,0.2)';
+          }}
+          onMouseOut={(e) => {
+            e.currentTarget.style.transform = 'scale(1)';
+            e.currentTarget.style.boxShadow = '0 2px 4px rgba(0,0,0,0.1)';
+          }}
+        >
+          
+          Link
+        </Button>
         )}
       </Card.Body>
     </Card>
