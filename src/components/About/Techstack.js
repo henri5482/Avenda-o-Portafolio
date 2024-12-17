@@ -12,7 +12,11 @@ import {
 } from "react-icons/di";
 import { FaBootstrap, FaFigma } from "react-icons/fa";
 import {
+  SiAdobeillustrator,
+  SiAdobephotoshop,
+  SiCanva,
   SiFirebase,
+  SiGoogleanalytics,
   SiNextdotjs,
   SiNotion,
   SiPostgresql,
@@ -86,6 +90,18 @@ function Techstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <FaBootstrap />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiAdobephotoshop />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiAdobeillustrator />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiGoogleanalytics />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiCanva />
       </Col>
     </Row>
   );
