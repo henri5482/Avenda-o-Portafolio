@@ -40,7 +40,7 @@ function Projects() {
         />
         <meta
           property="og:image"
-          content="https://avenda-o-two.vercel.app/Assets/Projects/homee.jpg"
+            content="https://avenda-o-two.vercel.app/Assets/Projects/homee.jpg"
         />
         <meta
           property="og:url"
