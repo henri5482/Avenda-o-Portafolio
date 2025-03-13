@@ -246,8 +246,8 @@ function Projects() {
             />
           </Col>
 
-
-          <Col md={4} className="project-card">
+             
+          <Col md={4} className="project-card " >
             <ProjectCard
             html
             css
@@ -255,7 +255,7 @@ function Projects() {
             vercel
               imgPath={metaverso}
               isBlog={false}
-              title="Pixology"
+              title="Metaverso"
               ghLink="https://github.com/loth381/metaverso"
               demoLink="https://metaverso-nu.vercel.app"
             />

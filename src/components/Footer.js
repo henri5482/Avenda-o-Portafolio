@@ -18,7 +18,7 @@ function Footer() {
           <ul className="footer-icons">
             <li className="social-icons">
               <a
-                href="https://wa.me/51930134408"
+                href="https://wa.me/51918237837"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
@@ -38,7 +38,7 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
-                href="https://github.com/loth381"
+                href="https://github.com/henri5482"
                 style={{ color: "white" }}
                 target="_blank"
                 rel="noopener noreferrer"

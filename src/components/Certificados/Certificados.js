@@ -5,6 +5,7 @@ import elp from "..//Certificados/img/elp.webp";
 import Likindin from "..//Certificados/img/Likindin.webp";
 import lutecci from "..//Certificados/img/Luteci.webp";
 import Particle from "../Particle";
+import dataton from "./img/dataton.png";
 import ProjectCard from "./ProjectCards";
 function Projects() {
   return (
@@ -20,6 +21,12 @@ function Projects() {
 
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
 
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={dataton}
+            />
+          </Col>
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={lutecci}
@@ -30,7 +37,7 @@ function Projects() {
             <ProjectCard
               imgPath={Likindin}
             />
-          </Col>
+          </Col> 
 
           <Col md={4} className="project-card">
             <ProjectCard
