@@ -21,6 +21,59 @@ import ProjectCard from "./ProjectCards";
 
 function Projects() {
   return (
+    <>
+<head>
+        <title>Portafolio de Proyectos | Henri de la Cruz</title>
+        <meta
+          name="description"
+          content="Explora los proyectos recientes de Henri de la Cruz, incluyendo DXN Ecommerce, clon de Spotify, y más. Desarrollos en React, Next.js, Tailwind CSS y tecnologías modernas."
+        />
+
+        {/* Open Graph para redes sociales */}
+        <meta
+          property="og:title"
+          content="Portafolio de Proyectos | Henri de la Cruz"
+        />
+        <meta
+          property="og:description"
+          content="Explora mis proyectos más recientes como DXN Ecommerce, clon de Spotify, y más. Desarrollos en Next.js, Tailwind CSS y más."
+        />
+        <meta
+          property="og:image"
+          content="https://avenda-o-two.vercel.app/Assets/Projects/homee.jpg"
+        />
+        <meta
+          property="og:url"
+          content="https://avenda-o-two.vercel.app/project"
+        />
+        <meta property="og:type" content="website" />
+
+        {/* Twitter Cards */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta
+          name="twitter:title"
+          content="Portafolio de Proyectos | Henri de la Cruz"
+        />
+        <meta
+          name="twitter:description"
+          content="Proyectos como DXN Ecommerce, clon de Spotify, y más. Desarrollos en Next.js, Tailwind CSS y más."
+        />
+        <meta
+          name="twitter:image"
+          content="https://avenda-o-two.vercel.app/Assets/Projects/homee.jpg"
+        />
+
+        {/* Keywords */}
+        <meta
+          name="keywords"
+          content="Portafolio de proyectos, DXN Ecommerce, Next.js, Tailwind CSS, React, Desarrollo Web, Henri de la Cruz, Ayacucho"
+        />
+
+        <link
+          rel="canonical"
+          href="https://avenda-o-two.vercel.app/project"
+        />
+      </head>
     <Container fluid className="project-section">
       <Particle />
       <Container>
@@ -278,6 +331,7 @@ function Projects() {
         </Row>
       </Container>
     </Container>
+    </>
   );
 }
 
